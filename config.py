@@ -18,7 +18,7 @@ class DevelopmentConfig(Config):
 
 class ProductionConfig(Config):
    """Canliya alim (Uretim) ortami icin ayarlar"""
-DEBUG = False
+   DEBUG = False
 
 # Geliştirme ve üretim için iki ayrı sınıfı seçen yapılandırma sözlüğü
 config_by_name = {

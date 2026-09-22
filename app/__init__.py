@@ -25,6 +25,6 @@ def create_app(config_name='development'):
         
     # 5. Rotaları (Blueprint) uygulamaya kaydediyoruz
     app.register_blueprint(pages_bp)
-    app.register_blueprint(api_bp, url_prefix='/api')
+    app.register_blueprint(api_bp)
     
     return app
